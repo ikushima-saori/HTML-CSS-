@@ -1,0 +1,116 @@
+*{
+  margin:0 ;
+  padding:0 ;
+  box-sizing:border-box;
+}
+
+header{
+  text-align:center;
+  width:100%;
+  padding:20px 0;
+}
+
+nav{
+  text-align:center;
+  border-top:solid 1px gray;
+  border-bottom:solid 1px gray;
+  margin: 0 auto;
+  padding:15px 0;
+}
+
+li{
+  list-style: none;
+  display:inline-block;
+  margin:0 20px;
+}
+
+.main{
+  width:800px;
+  margin:50px auto;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.緑1{
+  width:200px;
+  height:200px;
+  background-color:#e6ffe9;
+}
+
+.緑2{
+  width:200px;
+  height:200px;
+  background-color:#cbffd3;
+}
+
+.緑3{
+  width:200px;
+  height:200px;
+  background-color:#aeffbd;
+}
+
+.緑4{
+  width:200px;
+  height:200px;
+  background-color:#93ffab;
+}
+
+.黄1{
+  width:200px;
+  height:200px;
+  background-color:#f3ffd8;
+}
+
+.黄2{
+  width:200px;
+  height:200px;
+  background-color:#edffbe;
+}
+
+.黄3{
+  width:200px;
+  height:200px;
+  background-color:#e9ffa5;
+}
+
+.黄4{
+  width:200px;
+  height:200px;
+  background-color:#e4ff8d;
+}
+
+.青1{
+  width:200px;
+  height:200px;
+  background-color:#d9e5ff;
+}
+
+.青2{
+  width:200px;
+  height:200px;
+  background-color:#bad3ff;
+}
+
+.青3{
+  width:200px;
+  height:200px;
+  background-color:#a4c6ff;
+}
+
+.青4{
+  width:200px;
+  height:200px;
+  background-color:#8eb8ff;
+}
+
+footer{
+  width:100%;
+  height:120px;
+  background-color:gray;
+  line-height:120px;
+  text-align:center;
+}
+
+p{
+  color:white;
+}

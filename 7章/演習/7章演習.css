@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.メインビジュ{
+  height:400px;
+  width: 100%;
+  background-image:url(img/mv.jpg);
+  background-size:cover;
+  background-position:bottom;
+}
+
+.ビジュテキスト{
+  padding:20px;
+  color:gray;
+}
+
+.メイン{
+  margin:50px auto;
+  width:840px;
+  color:gray;
+}
+
+.ブログ1{
+  padding-bottom:30px;
+  border-bottom:1px solid gray;
+}
+
+.ブログ2{
+  padding:30px 0 30px 0;
+  border-bottom:1px solid gray;
+}
+
+.ブログ3{
+  padding:30px 0 30px 0;
+  border-bottom:1px solid gray;
+}
+
+.ブログ4{
+  padding:30px 0 30px 0;
+  border-bottom:1px solid gray;
+}

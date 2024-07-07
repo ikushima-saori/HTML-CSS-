@@ -1,0 +1,87 @@
+*{
+  margin:0 ;
+  padding:0 ;
+  box-sizing:border-box;
+}
+
+header{
+  width:100%;
+  height:50px;
+  background-color:#FF9A4B;
+}
+
+.メインブロック{
+    width:960px;
+    margin:50px auto;
+    display: flex;
+    justify-content:center;
+}
+
+.ブロック{
+  width:300px;
+  padding:10px;
+  background-color:#EEEEEE;
+  position:relative;
+}
+
+.ブロック:nth-child(2){
+  margin:0 30px;
+}
+
+.画像1{
+  background-image:url(img/flow01.png);
+  height:150px;
+  background-size:cover;
+  background-position:bottom;
+}
+
+.画像2{
+  background-image:url(img/flow02.png);
+  height:150px;
+  background-size:cover;
+  background-position:bottom;
+}
+
+.画像3{
+  background-image:url(img/flow03.png);
+  height:150px;
+  background-size:cover;
+  background-position:bottom;
+}
+
+.ステップナンバー{
+  position:absolute;
+  top:0px;
+  left:0px;
+  padding:1px 0 4px 0;
+  font-size:14px;
+  color:white;
+  background-color:#FF9A4B;
+}
+
+.タイトル{
+  margin:15px 0 5px 0;
+}
+
+footer{
+  width:100%;
+  height:50px;
+  background-color:#AAAAAA;
+}
+
+@media screen and (max-width:768px) {
+  .メインブロック{
+    width: 100%;
+    margin:50px auto;
+    display: block;
+  }
+
+  .ブロック{
+    width:90%;
+    margin:0 auto;
+  }
+
+  .ブロック:nth-child(2){
+    margin:20px auto;
+  }
+}

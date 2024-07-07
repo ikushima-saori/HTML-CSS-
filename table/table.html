@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>table</title>
+    <link rel="stylesheet" href="table.css" />
+  </head>
+  <body>
+  <table class="is_border">
+    <thead>
+      <tr>
+        <th>注文日</th>
+        <th>購入者</th>
+        <th>商品名</th>
+        <th>注文個数</th>
+        <th>単価</th>
+        <th>小計</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2023/08/31 14:47:01</td>
+        <td>難波 専太</td>
+        <td>いちごショート</td>
+        <td class="is_num">4</td>
+        <td class="is_num">441円</td>
+        <td class="is_num">1,764円</td>
+      </tr>
+      <tr>
+        <td>2023/08/31 14:45:31</td>
+        <td>六本木 一</td>
+        <td>ジャムサンドクッキー</td>
+        <td class="is_num">1</td>
+        <td class="is_num">1,320円</td>
+        <td class="is_num">1,320円</td>
+      </tr>
+      <tr>
+        <td rowspan="2">2023/08/31 14:45:01</td>
+        <td rowspan="2">新宿 太郎</td>
+        <td>モンブラン</td>
+        <td class="is_num">1</td>
+        <td class="is_num">550円</td>
+        <td class="is_num">550円</td>
+      </tr>
+      <tr>
+        <td>レモンクッキー</td>
+        <td class="is_num">1</td>
+        <td class="is_num">441円</td>
+        <td class="is_num">441円</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="5">合計</td>
+        <td class="is_num">6,475円</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>
